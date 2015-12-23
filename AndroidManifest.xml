@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.activity.main"
+    android:installLocation="preferExternal"
+    android:screenOrientation="landscape"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+     
+    <!-- 震动提醒-->
+    <uses-permission android:name="android.permission.VIBRATE"/> 
+    <!--使用网络功能所需权限  -->  
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE">  
+	</uses-permission>  
+	<uses-permission android:name="android.permission.INTERNET">  
+	</uses-permission>  
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE">  
+	</uses-permission>  
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE">  
+	</uses-permission>  
+	<!-- 获取设置信息和详情页直接拨打电话需要以下权限  -->  
+	<uses-permission android:name="android.permission.READ_PHONE_STATE">  
+	</uses-permission>  
+	<uses-permission android:name="android.permission.CALL_PHONE">  
+	</uses-permission>  
+	<!-- 使用定位功能所需权限,demo已集成百度定位SDK,不使用定位功能可去掉以下6项 -->  
+	<uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" > 
+    </uses-permission> 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" > 
+    </uses-permission> 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" > 
+    </uses-permission> 
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" > 
+    </uses-permission> 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" > 
+    </uses-permission> 
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" > 
+    </uses-permission> 
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" > 
+    </uses-permission> 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" > 
+    </uses-permission> 
+    <uses-permission android:name="android.permission.INTERNET" /> 
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" > 
+    </uses-permission> 
+    <uses-permission android:name="android.permission.READ_LOGS" > 
+    </uses-permission>
+    
+    <application
+        android:name="com.activity.context.MapApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.activity.main.PrefaceIcon" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> 
+        </activity>
+        <activity android:name="com.activity.main.PrefaceCreator"/>
+
+        
+        
+        <activity android:name="com.activity.main.Login" >
+        </activity>
+        <activity android:name="com.activity.main.LoginRegister"/>
+        <activity android:name="com.activity.main.LoginFindPassword"/>
+        <activity android:name="com.activity.main.LoginWait"/>
+        <activity android:name="com.activity.main.LoginUploadWait"/>
+        <activity android:name="com.activity.main.LoginMain"/>
+        <activity android:name="com.activity.main.LoginRegisterSuccess"/>
+        <activity android:name="com.activity.main.MainInterface"/>
+        <activity android:name="com.activity.main.QuitAct"/>
+        
+        <activity android:name="com.activity.main.SwitchView"
+                  android:label="@string/app_name"
+               	  android:theme="@android:style/Theme.NoTitleBar"
+               	  android:configChanges="orientation|keyboardHidden">
+        </activity>        
+        
+
+        <activity
+            android:name="com.activity.buildact.BuildInformation">
+        </activity>
+        <activity android:name="com.activity.buildact.BuildSetPoi"/>
+        <activity android:name="com.activity.buildact.BuildBrowsing"/>
+        <activity android:name="com.activity.buildact.BuildUpload"/>
+        <activity android:name="com.activity.buildact.BuildSuccess"/>
+        
+        
+        <activity android:name="com.activity.joinact.SearchAct">
+        </activity>        
+        <activity android:name="com.activity.joinact.ListSearch"/>
+        <activity android:name="com.activity.joinact.MapSearch"/>
+        <activity android:name="com.activity.joinact.ActInfo"/>
+        <activity android:name="com.activity.joinact.ActInfoOfDouble"/>
+        <activity android:name="com.activity.joinact.PracticeActInfo"/>
+        <activity android:name="com.activity.joinact.Team"/>
+        <activity android:name="com.activity.joinact.TeamInfo"/> 
+        <activity android:name="com.activity.joinact.PracticeSearchAct"/>
+        <activity android:name="com.activity.joinact.BuildTeam">
+        	
+        </activity>
+        <activity android:name="com.activity.joinact.BuildTeamUpload">
+            
+        </activity> 
+        
+        
+        
+        
+        
+        <activity
+            android:name="com.activity.context.Group"
+            android:label="SportTest" 
+            android:windowSoftInputMode="adjustPan"
+            android:configChanges="orientation"
+            android:screenOrientation="sensor">
+        </activity>
+        
+        <activity
+            android:name="com.activity.context.SinglePractice"
+            android:configChanges="orientation"
+            android:screenOrientation="sensor">
+        </activity>
+        <activity
+            android:name="com.activity.context.SingleContext"
+            android:configChanges="orientation"
+            android:screenOrientation="sensor">
+        </activity>
+        
+        <activity
+            android:name="com.activity.context.DoubleFinder"
+            android:configChanges="orientation"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="sensor">
+        </activity>
+        
+        <activity
+            android:name="com.activity.context.DoubleTarget"
+            android:configChanges="orientation"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="sensor">
+        </activity>
+        <activity android:name="com.activity.context.RecordOfTeam"/> 
+        <activity android:name="com.activity.context.RecordOfDouble"/> 
+        <activity android:name="com.activity.context.RecordOfSingle"/>
+        <activity android:name="com.activity.context.RecordOfPractice"/>  
+        
+        
+        
+        <activity android:name="com.activity.personal.PersonAct">
+        </activity>        
+        <activity android:name="com.activity.personal.PersonalDataActivity"/>
+        <activity android:name="com.activity.personal.AccNumSafetyActivity"/>
+        <activity android:name="com.activity.personal.UserActivityActivity"/>
+        <activity android:name="com.activity.personal.ChangePwd"/>
+        <activity android:name="com.activity.personal.SetProtection"/>
+        <activity android:name="com.activity.personal.DataWait"/>
+        <activity android:name="com.activity.personal.Success"/>
+        
+        
+        
+        <activity android:name="com.activity.support.SupportMainSelection"/>
+        <activity android:name="com.activity.support.SupportSoftware"/>
+        <activity android:name="com.activity.support.SupportRule"/>
+        <activity android:name="com.activity.support.SupportCreator"/>
+        
+        
+        <activity android:name="com.activity.rankinglist.RankAct"/>        
+        <activity android:name="com.activity.rankinglist.MarkTen"/>
+        
+        
+        
+        
+        
+        <service 
+            android:name="com.baidu.location.f" 
+            android:enabled="true" 
+            android:permission="android.permission.BAIDU_LOCATION_SERVICE" 
+            android:process=":remote" > 
+            <intent-filter> 
+                <action android:name="com.baidu.location.service_v2.9" /> 
+            </intent-filter> 
+		</service>
+    </application>
+
+</manifest>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    android:background="#cccccc"
+    tools:context=".MainInterface">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:background="@drawable/image1"
+    android:orientation="vertical" >
+
+	<ImageButton android:id="@+id/Build"
+		android:layout_width="107dp"
+		android:layout_height="66dp"		   
+		android:layout_gravity="right"
+		android:layout_marginRight="80dp"
+		android:layout_marginTop="13dp"
+		android:background="@drawable/build"/>
+	<ImageButton android:id="@+id/Join"
+		android:layout_width="108dp"
+		android:layout_height="59dp"
+		android:layout_gravity="left"
+		android:layout_marginLeft="46.67dp"
+		android:background="@drawable/join"/>
+	<ImageButton android:id="@+id/Practise"
+		android:layout_width="107dp"
+		android:layout_height="66dp"
+		android:layout_gravity="left"
+		android:layout_marginLeft="80dp"
+		android:layout_marginTop="6dp"
+		android:background="@drawable/practice"/>
+	<ImageButton android:id="@+id/Rank"
+		android:layout_width="106dp"
+		android:layout_height="69dp"
+		android:layout_gravity="right"
+		android:layout_marginRight="46.67dp"
+		android:background="@drawable/rank"/>
+	<ImageButton android:id="@+id/Person"
+		android:layout_width="107dp"
+		android:layout_height="67dp"
+		android:layout_gravity="center"
+		android:background="@drawable/personal"/>
+	<ImageButton android:id="@+id/Technology"
+		android:layout_width="108dp"
+		android:layout_height="56dp"
+		android:layout_gravity="left"
+		android:layout_marginLeft="33.33dp"
+		android:background="@drawable/support"/>
+	<ImageButton android:id="@+id/Quit"
+		android:layout_width="108dp"
+		android:layout_height="56dp"
+		android:layout_gravity="right"
+		android:layout_marginRight="20dp"
+		android:background="@drawable/quit"/>
+</LinearLayout>
+</ScrollView>

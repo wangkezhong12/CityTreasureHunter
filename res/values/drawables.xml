@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="transparent">#00000000</item>
+    <item type="drawable" name="topcolor">#88225588</item>
+    <item type="drawable" name="topcolor1">#00225588</item>
+    <item type="drawable" name="dialogcolor">#666264</item>
+    <item type="drawable" name="menubutton_b">#131313</item>
+    <item type="drawable" name="menubutton_a">#B0E0E6</item>
+    <item type="drawable" name="topcolor2">#33225588</item>
+</resources>

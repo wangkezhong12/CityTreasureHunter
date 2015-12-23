@@ -1,0 +1,77 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/alertdialog"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:paddingLeft="20px"
+    android:paddingRight="20px"
+    android:paddingBottom="20px" 
+    android:gravity="center"
+    android:orientation="vertical" >  
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"               
+        android:orientation="vertical"> 
+        <TextView android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="设置检查点"
+             android:textSize="30px"
+             />  
+        <TextView 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="20px" 
+            android:text="请输入问题："
+            android:textSize="20px" /> 
+ 
+        <EditText 
+            android:id="@+id/checkquestion"
+            android:layout_width="240px" 
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="10px"
+             /> 
+    
+ 
+    
+ 
+        <TextView 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="10px" 
+            android:text="请输入答案：" 
+            android:textSize="20px"/> 
+ 
+        <EditText 
+            android:id="@+id/checkanswer"
+            android:layout_width="240px" 
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px" /> 
+    
+    <LinearLayout 
+        android:id="@+id/buttonlayout"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="20px"
+        android:gravity="center" > 
+ 
+        <Button android:id="@+id/send"
+            android:hint="提交"
+            android:textSize="20px"
+            android:layout_width="90px"
+            android:layout_height="wrap_content"
+            android:clickable="false"/> 
+            
+        <Button android:id="@+id/cancel"
+            android:text="取消"
+            android:textSize="20px"
+            android:layout_marginLeft="30px"
+            android:layout_width="90px"
+            android:layout_height="wrap_content"
+            android:clickable="true"/>
+ 
+ 
+    </LinearLayout> 
+ </LinearLayout>
+</LinearLayout> 
+

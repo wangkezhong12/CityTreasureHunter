@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="colors">
+        <item>-请选择-</item>
+        <item>单人赛</item>
+        <item>团体赛</item>
+        <item>双人互找</item>
+    </string-array>      
+</resources>

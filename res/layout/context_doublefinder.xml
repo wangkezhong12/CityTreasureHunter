@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:fillViewport="true"
+    	android:scrollbars="vertical"
+    	android:background="#cccccc">
+
+	<LinearLayout android:id="@+id/isshow"
+   	 	android:layout_width="fill_parent"
+   	 	android:layout_height="fill_parent"
+    
+    	android:orientation="vertical" 
+    	android:background="#cccccc">
+    
+        
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+        android:background="#66225588">
+        
+		<Button android:id="@+id/save"
+            android:layout_width="10dp"
+            android:layout_height="45dp"
+            android:textSize="16px"
+            android:text="截图"           
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="3dp" 
+            android:layout_marginBottom="3dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_alignParentBottom="true"
+            />
+        
+        <Button android:id="@+id/end"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:textSize="16px"
+            android:hint="等待开始"
+            android:layout_below="@id/save"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="3dp" 
+            android:layout_marginBottom="3dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_alignParentBottom="true"
+            />
+        
+        <Button android:id="@+id/prompt"
+            android:layout_width="10dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="15dp"
+            android:textSize="16px"
+            android:hint="机会▼"
+            android:layout_below="@id/end"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="3dp" 
+            android:layout_marginBottom="3dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_alignParentBottom="true"
+            />
+        
+        
+        
+        
+    </LinearLayout>
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/bmapsView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="9"
+            android:clickable="true" />
+        <Button android:id="@+id/btn_show"
+     		android:layout_width="fill_parent"
+      		android:layout_height="wrap_content"
+      		android:background="#66225588"
+      		android:text="聊天室▲" /> 
+
+	</LinearLayout>
+</ScrollView>

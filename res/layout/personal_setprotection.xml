@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    <LinearLayout android:orientation="horizontal"
+        	android:layout_width="fill_parent"
+        	android:layout_height="40dp"
+        	android:background="#0055aa">        
+        	<TextView android:layout_width="fill_parent"
+            	android:layout_height="40dp"
+            	android:gravity="center|center_vertical"
+            	android:text="设置密保"
+            	android:textColor="#ffffff"
+            	android:textSize="15sp"           	
+            	android:paddingBottom="2dp"/>        	           
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:gravity="center_vertical"
+		android:layout_marginTop="24dp">
+		<TextView android:text="问题:"
+			android:layout_width="48dp" 
+			android:layout_height="20dp"
+			android:layout_marginLeft="28dp"
+			android:textSize="16.67sp"
+			android:textColor="#000000"/>
+		<TextView android:id="@+id/Question" 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_marginRight="28dp"/>
+	</LinearLayout>    
+	<TextView android:id="@+id/ChangeQuestion"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginTop="24dp"
+	        android:text="换个问题试试？"
+	        android:textColor="#32CD32"
+	        android:textSize="14sp"
+	        android:textStyle="bold" />
+    <LinearLayout android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:gravity="center_vertical"
+		android:layout_marginTop="24dp">
+		<TextView android:text="答案:"
+			android:layout_width="48dp" 
+			android:layout_height="20dp"
+			android:layout_marginLeft="28dp"
+			android:textSize="16.67dp"
+			android:textColor="#000000"/>
+		<EditText android:id="@+id/Answer" 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_marginRight="28dp"/>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" 
+		android:layout_marginTop="16.67dp"
+		android:layout_marginRight="28dp"
+		android:gravity="right">
+		<ImageButton android:id="@+id/Back"
+		    android:layout_width="40dp"
+		    android:layout_height="40dp"
+		    android:background="@drawable/buildact_backbutton"/>
+		<ImageButton android:id="@+id/OK"
+		    android:layout_width="40dp"
+		    android:layout_height="40dp"
+		    android:layout_marginLeft="10dp"
+		    android:background="@drawable/okbutton"/>
+	</LinearLayout>
+</LinearLayout>

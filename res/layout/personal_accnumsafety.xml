@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="437dp"> 
+    	<LinearLayout android:orientation="horizontal"
+        	android:layout_width="fill_parent"
+        	android:layout_height="40dp"
+        	android:background="#0055aa">        
+        	<TextView android:layout_width="fill_parent"
+            	android:layout_height="40dp"
+            	android:gravity="center|center_vertical"
+            	android:text="账号安全"
+            	android:textColor="#ffffff"
+            	android:textSize="15sp"
+            	android:layout_weight="1"
+            	android:paddingBottom="2dp"/>                              
+    	</LinearLayout>
+    	<ImageButton android:id="@+id/ChangePwd"
+    	    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="100dp"
+		    android:layout_marginLeft="27dp"
+		    android:layout_width="142dp"
+		    android:layout_height="37dp"
+		    android:background="@drawable/changepwd"/>
+		<ImageButton android:id="@+id/SetProtection"
+		    android:layout_gravity="center_horizontal"		   
+		    android:layout_width="170dp"
+		    android:layout_height="29dp"
+		    android:background="@drawable/setprot"/>
+		<ImageButton android:id="@+id/Back"
+		    android:layout_gravity="center_horizontal"		   
+		    android:layout_width="143dp"
+		    android:layout_height="41dp"
+		    android:layout_marginRight="25dp"
+		    android:background="@drawable/back"/>  		     
+	</LinearLayout>
+</LinearLayout>

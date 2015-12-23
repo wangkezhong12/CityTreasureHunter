@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+    <ImageView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/step2"/>
+    <LinearLayout android:orientation="horizontal"
+        	android:layout_width="fill_parent"
+        	android:layout_height="30dp"
+        	android:background="#0055aa">        
+        	<TextView android:layout_width="fill_parent"
+            	android:layout_height="30dp"
+            	android:gravity="center_vertical"
+            	android:text="请设置起点、检查点、警告点："
+            	android:textColor="#ffffff"
+            	android:textSize="15sp"           	
+            	android:paddingLeft="10dp"
+            	android:id="@+id/tvinfo"/>        	           
+    </LinearLayout>      
+    <com.baidu.mapapi.map.MapView
+            android:id="@+id/checkmapsView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="1"
+            android:clickable="true" />     
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ffffff"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp">
+        <ImageButton android:id="@+id/Last"
+            android:layout_width="31dp"
+            android:layout_height="21dp"
+            android:background="@drawable/pastbutton"/>
+        <ImageButton android:id="@+id/Reset"
+            android:layout_width="22dp"
+            android:layout_height="21dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/build_resetbutton"
+            android:layout_gravity="center"/>
+        <ImageButton android:id="@+id/Next"
+            android:layout_width="31dp"
+            android:layout_height="21dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/nextbutton"/>       
+   </LinearLayout>
+</LinearLayout>
+

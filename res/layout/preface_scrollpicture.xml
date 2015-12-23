@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<RelativeLayout android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:id="@+id/mainRLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android">        
+    <com.function.switchscroll.MyScrollLayout    
+	  xmlns:android="http://schemas.android.com/apk/res/android"    
+	  android:id="@+id/ScrollLayout"    
+	  android:layout_width="fill_parent"    
+	  android:layout_height="fill_parent">      
+ 	  <RelativeLayout  android:background="@drawable/guide01"    
+	  	android:layout_width="fill_parent"    
+	  	android:layout_height="fill_parent">
+        <TextView android:id="@+id/skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="32dp"                        
+            android:text="跳过？"
+            android:textColor="#32CD32"
+	        android:textSize="10sp"
+	        android:textStyle="bold"
+			android:layout_gravity="center_vertical"
+			android:paddingLeft="20dp"
+			android:paddingRight="15dp"
+			android:paddingTop="15dp"
+			android:paddingBottom="15dp"/>
+      </RelativeLayout>         
+	  <FrameLayout android:background="@drawable/guide02"    
+	  	android:layout_width="fill_parent"    
+	  	android:layout_height="fill_parent">
+	  </FrameLayout>    	      
+	  <FrameLayout android:background="@drawable/guide03"     
+	  	android:layout_width="fill_parent"    
+	  	android:layout_height="fill_parent">      
+	  </FrameLayout>    	  
+	  <FrameLayout android:background="@drawable/guide04"    
+	  	android:layout_width="fill_parent"    
+	  	android:layout_height="fill_parent">    
+	  </FrameLayout>
+	  <RelativeLayout  android:background="@drawable/guide05"    
+	  	android:layout_width="fill_parent"    
+	  	android:layout_height="fill_parent">
+        <ImageButton android:id="@+id/startBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="98dp"              
+            android:background="@drawable/button_bg"
+			android:layout_gravity="center_vertical"
+			android:paddingLeft="20dp"
+			android:paddingRight="20dp"
+			android:paddingTop="15dp"
+			android:paddingBottom="15dp"/>
+      </RelativeLayout>	           
+	</com.function.switchscroll.MyScrollLayout> 
+    <LinearLayout android:id="@+id/llayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48.0dip"
+        android:orientation="horizontal" >    	
+        <ImageView android:clickable="true"  
+        	android:padding="15.0dip" 
+        	android:layout_gravity="center_vertical" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" 
+        	android:src="@drawable/guide_round" />
+        <ImageView android:clickable="true"  
+        	android:padding="15.0dip"  
+        	android:layout_gravity="center_vertical" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" 
+        	android:src="@drawable/guide_round" />
+        <ImageView android:clickable="true"  
+            android:padding="15.0dip"  
+            android:layout_gravity="center_vertical" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:src="@drawable/guide_round" />
+        <ImageView android:clickable="true"  
+            android:padding="15.0dip"  
+            android:layout_gravity="center_vertical" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:src="@drawable/guide_round" />
+        <ImageView android:clickable="true"  
+            android:padding="15.0dip"  
+            android:layout_gravity="center_vertical" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:src="@drawable/guide_round" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:id="@+id/animLayout">
+        <LinearLayout
+            android:id="@+id/leftLayout" 
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+        <ImageView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/whatsnew_left"/>
+        <ImageView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/whatsnew_left_m"
+            android:layout_marginLeft="-3dp"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:id="@+id/rightLayout" 
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+        <ImageView android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:src="@drawable/whatsnew_right_m"/>
+        <ImageButton android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:src="@drawable/whatsnew_right"/>       
+        </LinearLayout>
+    </LinearLayout>    
+</RelativeLayout>
+

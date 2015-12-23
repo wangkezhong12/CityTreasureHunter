@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">城市TreasureHunter</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello">此为测试页，在此改变。</string>
+    <string name="mapsearch">地图模式</string>
+    <string name="listsearch">列表模式</string> 
+    <string name="title_activity_main">上拉刷新</string> 
+    <string name="spinner_title">请选择活动类型</string>   
+    <string name="personaldata">个人资料</string>
+    <string name="accnumsafety">账号安全</string>
+    <string name="useractivity">用户活动</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+
+</resources>

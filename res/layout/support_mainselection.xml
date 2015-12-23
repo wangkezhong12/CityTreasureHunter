@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="#ffffff">
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#0055aa">        
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:gravity="center|center_vertical"
+            android:text="技术支持"            
+            android:textColor="#ffffff"
+            android:textSize="15sp"            
+            android:paddingBottom="2dp"/>
+	</LinearLayout>
+	<ImageButton android:id="@+id/Introduction"
+	    android:layout_width="fill_parent"
+        android:layout_height="106.67dp"
+        android:layout_weight="1.0"
+        android:background="@drawable/softintrod"/>
+	<ImageButton android:id="@+id/Rule"
+	    android:layout_width="fill_parent"
+        android:layout_height="106.67dp"
+        android:layout_weight="1.0"
+        android:background="@drawable/actrule"/>
+	<ImageButton android:id="@+id/Team"
+	    android:layout_width="fill_parent"
+        android:layout_height="106.67dp"
+        android:layout_weight="1.0"
+        android:background="@drawable/teaminfo"/>
+	<ImageButton android:id="@+id/Cancel"
+	    android:layout_width="fill_parent"
+        android:layout_height="106.67dp"
+        android:layout_weight="1.0"
+        android:background="@drawable/quitbutton"/>
+	<TextView android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:background="#22225588"/>
+</LinearLayout>

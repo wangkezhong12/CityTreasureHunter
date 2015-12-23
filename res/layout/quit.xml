@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <LinearLayout android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:background="#77e0cc46">
+    <ImageView android:layout_width="114.67dp"
+        android:layout_height="114.67dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/zt"
+        android:layout_gravity="center_horizontal"/>
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:text="正在退出软件"
+        android:textSize="24dp"
+        android:textColor="#e0cc46"/>
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:text="谢谢使用"
+        android:textSize="24dp"
+        android:textColor="#e0cc46"/>
+    </LinearLayout>    
+</LinearLayout>

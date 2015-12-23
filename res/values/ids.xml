@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="main_radio">false</item>
+    <item type="id" name="mapsearch">false</item>
+    <item type="id" name="listsearch">false</item>
+    <item type="id" name="PersonalData">false</item>
+    <item type="id" name="AccNumSafety">false</item>
+    <item type="id" name="UserActivity">false</item>
+</resources>

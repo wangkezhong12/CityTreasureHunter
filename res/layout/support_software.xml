@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#0055aa">        
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:gravity="center|center_vertical"
+            android:text="软件介绍"            
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"            
+            android:paddingBottom="2dp"/>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:background="#5526ac10"
+	    android:gravity="center_horizontal">"
+	    <TextView android:layout_width="266.67dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="16dp"
+	        android:text="       定向运动是一项健康的智能型体育项目，是一项集结学生、家庭、精英人才的自然环境体育项目，是一项不需要任何花费的群众性体育项目。"
+	        android:textColor="#26ac10"
+	        android:textSize="20sp"
+	        android:textStyle="bold"/>
+	    <TextView android:layout_width="266.67dp"
+	        android:layout_height="wrap_content"
+	        android:text="       城市定向运动是在城市中进行的、参照定向运动规则的休闲娱乐活动，是一项智力与体力并重的运动。"
+	        android:textColor="#26ac10"
+	        android:textSize="20sp"
+	        android:textStyle="bold"/>
+	    <TextView android:layout_width="266.67dp"
+	        android:layout_height="wrap_content"
+	        android:text="       城市  TreasureHunter软件是一款基于安卓系统的手机应用，使用者根据应用生成的活动路线到达各检查点完成各娱乐项目，实现了定向运动的网络化和数据化。 "
+	        android:textColor="#26ac10"
+	        android:textSize="20sp"
+	        android:textStyle="bold"/>	    
+	</LinearLayout>    
+</LinearLayout>

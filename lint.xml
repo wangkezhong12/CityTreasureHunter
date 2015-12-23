@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HandlerLeak" severity="ignore">
+        <ignore path="src/com/activity/context/DoubleTarget.java" />
+    </issue>
+    <issue id="ShowToast">
+        <ignore path="src/com/activity/context/DoubleTarget.java" />
+        <ignore path="src/com/activity/rankinglist/RankAct.java" />
+    </issue>
+</lint>

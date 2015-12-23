@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lin_main"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"        
+    android:gravity="right"
+    tools:context=".TestActivity" >
+    <LinearLayout android:layout_width="150px"
+        android:layout_height="180px"
+        android:layout_marginRight="15px"
+        android:gravity="bottom"
+        android:background="@drawable/bk1"
+        android:orientation="vertical" >
+        <Button android:id="@+id/prompta"
+            android:layout_width="match_parent"
+            android:layout_height="44px"            
+            android:background="@drawable/menubutton"
+            android:text="模糊半径变小"
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+        <Button android:id="@+id/promptb"
+            android:layout_width="match_parent"
+            android:layout_height="44px"
+            android:layout_marginTop="2px"            
+            android:background="@drawable/menubutton"
+            android:text="向下随机改变偏移量"
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+        <Button android:id="@+id/promptc"
+            android:layout_width="match_parent"
+            android:layout_height="44px"
+            android:layout_marginTop="2px"
+            android:layout_marginBottom="10px"
+            android:background="@drawable/menubutton"
+            android:text="显示双方距离（3）"
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+    </LinearLayout>
+</LinearLayout>

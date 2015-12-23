@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#0055aa">        
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:gravity="center|center_vertical"
+            android:text="团队信息"            
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"            
+            android:paddingBottom="2dp"/>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_weight="1.0"
+	    android:orientation="vertical"
+	    android:background="#33e65d5d">
+	    <TextView android:layout_width="267dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="23dp"
+	        android:layout_marginLeft="54dp"
+	        android:text="团队名称：Fly工作室"
+	        android:textColor="#e65d5d"
+	        android:textSize="20sp"
+	        android:textStyle="bold"/>
+	    <TextView android:layout_width="267dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="14dp"
+	        android:layout_marginLeft="54dp"
+	        android:text="队    长：谷    枫
+                                                                    队员一：崔宇童
+                                                                   队员二：刘宝彬
+                                                                  队员三：汪克忠
+                                                                 队员四：翟姗姗"
+	        android:textColor="#e65d5d"
+	        android:textSize="20sp"
+	        android:textStyle="bold"/>
+	    <TextView android:layout_width="267dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="14dp"
+	        android:layout_marginLeft="54dp"
+	        android:text="团队口号：
+                                                                    超越梦想，我心飞翔。"
+	        android:textColor="#e65d5d"
+	        android:textSize="20sp"
+	        android:textStyle="bold"/>	        
+	</LinearLayout>      
+</LinearLayout>

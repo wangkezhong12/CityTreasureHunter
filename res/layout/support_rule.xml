@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:background="#ffffff">
+    <FrameLayout android:layout_width="match_parent"
+    	android:layout_height="match_parent"    
+    	android:background="#3370c4d6"
+    	android:orientation="vertical">
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#0055aa">        
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:gravity="center|center_vertical"
+            android:text="活动规则"            
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"            
+            android:paddingBottom="2dp"/>
+	</LinearLayout>
+    <TextView android:id="@+id/view1"
+        android:layout_width="267dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="33dp"
+        android:text="       个人参与比赛后，要求个人所在地在起点覆盖范围之内方可选择开始，比赛过程中依靠标有若干检查点的地图和指北针，自己选择行进路线，依次寻找各个检查点，同时检查点设置问题并且设有答案的提示，每提示一次，系统会自动增加比赛时间，比赛首先以到达检查点个数排名，到达检查点个数相同的以用时的长短排名。"
+        android:textSize="20sp"
+	    android:textStyle="bold"
+	    android:textColor="#64aebe"/>
+    <TextView android:id="@+id/view2"       
+        android:layout_width="267dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="33dp"
+        android:text="       团队组建成功后，要求团队成员全部到达起点覆盖范围之内以后由队长选择开始，比赛过程中团队人员依靠标有若干检查点的地图和指北针选择行进路线，依次寻找各个检查点，同时检查点设置问题并且设有答案的提示，每提示完一次，系统会自动增加比赛的时间，比赛首先以到达检查点个数排名，到达检查点个数相同的以用时长短排名。"
+        android:textSize="20sp"
+	    android:textStyle="bold"
+	    android:textColor="#64aebe"/>
+    <TextView android:id="@+id/view3"        
+        android:layout_width="267dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="33dp"
+        android:text="       参与者作为被找者可以选择自己创建此类型活动，作为寻找者只可选择参与此类型活动。活动开始之后，寻找者可在地图上看到覆盖被找者的圆形区域（被找者在圆形区域随机位置），依靠地图和指北针寻找，当寻找者与被找者之间距离小于设定距离时，游戏结束，寻找者获胜，反之被找者获胜。"
+        android:textSize="20sp"
+	    android:textStyle="bold"
+	    android:textColor="#64aebe"/>
+    </FrameLayout>
+</FrameLayout>
